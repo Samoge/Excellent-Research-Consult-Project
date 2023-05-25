@@ -10,15 +10,35 @@ import React from "react";
 const Main = () => {
   return (
     <div className="w-full h-[50vh] lg:h-screen hero">
-      <div className='back bg-auto h-full bg-no-repeat bg-center mx-auto flex items-center'>
-        <div className='p-12 justify-items-center'>
+      <div className="back bg-auto h-full bg-no-repeat bg-center mx-auto flex items-center">
+        <div className="px-8 md:pt-14 justify-items-center">
           <h2 className="text-left text-4xl font-normal text-white ">
             Making Research and Analysing Data for <br />
             Users to Get Better Result.
           </h2>
+          <p className="text-sm my-2">
+            Your Premier destination for exceptional research services, <br />
+            comprehensive data analysis training and insightful market survey
+            and analysis.
+          </p>
           <div>
-            <button className='py-1 px-6 text-xs h-9 bg-[#ff9900] mt-8' type="submit">Hire Us</button>
-            <button className='py-1 px-4 text-xs h-9 border-2 border-[#ff9900] mt-8 ml-4' type="submit">Show me more</button>
+
+            <a href="https://wa.link/lrz2cv"></a>
+            <button
+              className="py-1 px-6 text-xs h-9 bg-[#ff9900] mt-8"
+              type="submit"
+            >
+              Hire Us
+            </button>
+
+            <a href="#features">
+              <button
+                className="py-1 px-4 text-xs h-9 border-2 border-[#ff9900] mt-8 ml-4"
+                type="submit"
+              >
+                Show me more
+              </button>
+            </a>
           </div>
         </div>
       </div>

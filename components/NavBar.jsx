@@ -25,7 +25,7 @@ const NavBar = () =>{
             <Link href="/">
               <li className="ml-10 text-sm hover:border-b hover:text-[#ff9900]">Home</li>
             </Link>
-            <Link href="/">
+            <Link href="#features">
               <li className="ml-10 text-sm hover:border-b hover:text-[#ff9900]">
                 About us
               </li>

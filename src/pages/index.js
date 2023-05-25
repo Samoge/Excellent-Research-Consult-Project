@@ -10,6 +10,7 @@ import Slider from "../../components/Slider";
 import Purpose from "../../components/Purpose";
 import Form from "../../components/Form";
 import Features from "../../components/Features";
+import Footer from "../../components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +33,7 @@ export default function Home() {
         <Direction />
         <Purpose />
         <Form />
+        <Footer />
       </main>
     </>
   );

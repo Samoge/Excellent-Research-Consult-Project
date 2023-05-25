@@ -2,7 +2,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <div>
+    <div id="features">
       <section class="min-h-screen bg-white dark:bg-gray-900">
         <div class="container px-6 py-10 mx-auto">
           <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
@@ -46,7 +46,7 @@ const Features = () => {
               </p>
 
               <a
-                href="#"
+                href="https://wa.link/lrz2cv"
                 class="flex items-center -mx-1 text-sm text-[rgba(255,153,0,0.7)] capitalize transition-colors duration-300 transform dark:text-[#ff9900] hover:underline hover:text-[#ff9900] dark:hover:text-[#ff9900]"
               >
                 <span class="mx-1">read more</span>
@@ -96,7 +96,7 @@ const Features = () => {
               </p>
 
               <a
-                href="#"
+                href="https://wa.link/lrz2cv"
                 class="flex items-center -mx-1 text-sm text-[rgba(255,153,0,0.7)] capitalize transition-colors duration-300 transform dark:text-[#ff9900] hover:underline hover:text-[#ff9900] dark:hover:text-[#ff9900]"
               >
                 <span class="mx-1">read more</span>
@@ -150,7 +150,7 @@ const Features = () => {
               </p>
 
               <a
-                href="#"
+                href="https://wa.link/lrz2cv"
                 class="flex items-center -mx-1 text-sm text-[rgba(255,153,0,0.7)] capitalize transition-colors duration-300 transform dark:text-[#ff9900] hover:underline hover:text-[#ff9900] dark:hover:text-[#ff9900]"
               >
                 <span class="mx-1">read more</span>
@@ -201,7 +201,7 @@ const Features = () => {
               </p>
 
               <a
-                href="#"
+                href="https://wa.link/lrz2cv"
                 class="flex items-center -mx-1 text-sm text-[rgba(255,153,0,0.7)] capitalize transition-colors duration-300 transform dark:text-[#ff9900] hover:underline hover:text-[#ff9900] dark:hover:text-[#ff9900]"
               >
                 <span class="mx-1">read more</span>
@@ -238,17 +238,23 @@ const Features = () => {
               </span>
 
               <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Simple & clean designs
+                PROPOSAL/THESIS
               </h1>
 
               <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
+                Are you pursuing your undergraduate, master or doctorate degree?
+                At Excellent Research Consult, we offer expert guidance and
+                support for crafting winning proposals and thesis. Our service
+                covers proposal development, literature review, methodology,
+                editing and proof reading as well as formatting and citations.
+                We assist Students at every step, ensuring clarity, coherence
+                and adherence to academic standards. With a commitment to
+                excellence, Excellent Research Consult empowers researchers to
+                succeed in their academic and professional endeavours.
               </p>
 
               <a
-                href="#"
+                href="https://wa.link/lrz2cv"
                 class="flex items-center -mx-1 text-sm text-[rgba(255,153,0,0.7)] capitalize transition-colors duration-300 transform dark:text-[#ff9900] hover:underline hover:text-[#ff9900] dark:hover:text-[#ff9900]"
               >
                 <span class="mx-1">read more</span>
@@ -285,17 +291,21 @@ const Features = () => {
               </span>
 
               <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Simple & clean designs
+                MENTORSHIP
               </h1>
 
               <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
+                Excellent Research Consultancy offers expert mentorship services
+                to students, researchers, and professionals seeking academic and
+                professional success.We provide personalized guidance tailored
+                to your specific needs. Our support covers research guidance,
+                manuscript preparation, career development, and skill
+                enhancement. Our mentors work closely with you to define
+                achievable objectives and develop a roadmap towards success.
               </p>
 
               <a
-                href="#"
+                href="https://wa.link/lrz2cv"
                 class="flex items-center -mx-1 text-sm text-[rgba(255,153,0,0.7)] capitalize transition-colors duration-300 transform dark:text-[#ff9900] hover:underline hover:text-[#ff9900] dark:hover:text-[#ff9900]"
               >
                 <span class="mx-1">read more</span>
