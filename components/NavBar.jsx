@@ -81,7 +81,7 @@ const NavBar = () =>{
               <Link href='/'>
                 <li className='py-3 text-sm hover:text-[#ff9900]'>Home</li>
               </Link>
-              <Link href='/'>
+              <Link href='#features'>
                 <li className='py-3 text-sm hover:text-[#ff9900]'>About us</li>
               </Link>
               <Link href='/'>

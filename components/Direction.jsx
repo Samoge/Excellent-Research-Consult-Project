@@ -2,7 +2,7 @@ import React from "react";
 import { GrInfo } from "react-icons/gr";
 const Direction = () => {
   return (
-    <div className="p-10 flex-col justify-center items-center w-full">
+    <div className="p-10 flex-col justify-center items-center w-full motion-safe:animate-fadeIn">
       <div className="relative p-4 bg-white" id="goals">
         <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
           <div

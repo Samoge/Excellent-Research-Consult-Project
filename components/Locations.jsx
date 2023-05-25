@@ -3,7 +3,7 @@ import { FiPhoneCall } from "react-icons/fi";
 
 const Locations = () => {
   return (
-    <div className="p-10 justify-center items-center">
+    <div className="p-10 justify-center items-center motion-safe:animate-fadeIn">
       <div className="grid justify-items-center items-center">
         <p className="uppercase para tracking-widest text-black text-center">
           we are currently in these cities
