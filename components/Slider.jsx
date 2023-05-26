@@ -34,12 +34,7 @@ const Slider = () => {
           <img src="https://img.freepik.com/free-photo/authentic-book-club-scene_23-2150104566.jpg?w=740&t=st=1684761227~exp=1684761827~hmac=4ecb24f45ae5449e476ac971e93982df5d160d2681013831e24efb3de21377e4" alt="" srcset="" className="text-center md:w-[70%] mx-auto md:h-[80vh]"/>
         </SwiperSlide>
         
-      </Swiper>
-
-      
-
-
-      
+      </Swiper>      
     </div>
   );
 };
