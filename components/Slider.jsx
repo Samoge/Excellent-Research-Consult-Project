@@ -1,9 +1,9 @@
-import React, {useRef, useState} from "react";
-import {Autoplay, Pagination, Navigation, Mousewheel, Keyboard} from "Swiper";
-import {Swiper, SwiperSlide} from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+import React, {useRef, useState} from 'react';
+import {Autoplay, Pagination, Navigation, Mousewheel, Keyboard} from 'Swiper';
+import {Swiper, SwiperSlide} from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 const Slider = () => {
   return (
