@@ -1,5 +1,5 @@
 import React, {useRef, useState} from 'react';
-import {Autoplay, Pagination, Navigation, Mousewheel, Keyboard} from 'swiper';
+// import {Autoplay, Pagination, Navigation, Mousewheel, Keyboard} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -19,7 +19,9 @@ const Purpose = () => {
       </div>
 
 
-      <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+      <Swiper 
+      // pagination={true} modules={[Pagination]}
+       className="mySwiper">
         <SwiperSlide>
         <div className="mt-8 flex-col items-center justify-item-center hover:scale-105 transform duration-300 transition cursor-pointer">
             <p className="text-center italic px-2">
