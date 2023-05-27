@@ -113,9 +113,17 @@ const Footer = () => {
           </a>
           
         </div>
+
+        <div>
         <p class="mt-8 text-base leading-6 text-center text-gray-400">
           © 2023 Excellent Research Consult. All rights reserved.
         </p>
+        <p class="mt-2 text-base leading-6 text-center text-gray-400">
+            <a href="https://samoge-dev.netlify.app/">
+            Developed by SamOge Visuals
+            </a>
+        </p>
+        </div>
       </div>
     </section>
   );

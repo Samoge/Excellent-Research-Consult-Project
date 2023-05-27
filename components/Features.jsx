@@ -2,7 +2,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <div id="features">
+    <div >
       <section class="min-h-screen bg-white dark:bg-gray-900 motion-safe:animate-fadeIn">
         <div class="container px-6 py-10 mx-auto">
           <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">

@@ -28,7 +28,7 @@ const Main = () => {
               className="py-1 px-6 text-xs h-9 bg-[#ff9900] mt-8"
               type="submit"
             >
-              Hire Us
+              Get Started
             </button>
 
             <a href="#features">

@@ -7,7 +7,7 @@ body {
 }
 
 .hero {
-  background: url('/books.jpg');
+  background: url("/books.jpg");
   /* background: red; */
 }
 
@@ -15,29 +15,121 @@ body {
   background: rgba(0, 0, 0, 0.7);
 }
 
-@layer base{
+.mega-menu {
+  display: none;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}
+
+/* #hoverable Class Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hoverable {
+  position: static;
+}
+
+.hoverable > a:after {
+  content: "\25BC";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.hoverable:hover .mega-menu {
+  display: block;
+}
+
+/* #toggle Class Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.toggleable > label:after {
+  content: "\25BC";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.toggle-input {
+  display: none;
+}
+.toggle-input:not(checked) ~ .mega-menu {
+  display: none;
+}
+
+.toggle-input:checked ~ .mega-menu {
+  display: block;
+}
+
+.toggle-input:checked + label {
+  color: white;
+  background: #2c5282; /*@apply bg-blue-800 */
+}
+
+.toggle-input:checked ~ label:after {
+  content: "\25B2";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+li > ul {
+  transform: translatex(100%) scale(0);
+}
+li:hover > ul {
+  transform: translatex(101%) scale(1);
+}
+li > button svg {
+  transform: rotate(-90deg);
+}
+li:hover > button svg {
+  transform: rotate(-270deg);
+}
+
+.group:hover .group-hover\:scale-100 {
+  transform: scale(1);
+}
+.group:hover .group-hover\:-rotate-180 {
+  transform: rotate(180deg);
+}
+.scale-0 {
+  transform: scale(0);
+}
+.min-w-32 {
+  min-width: 8rem;
+}
+
+@layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#ffffff] tracking-wide
+    @apply bg-[#ecf0f3] text-[#ffffff] tracking-wide;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
   }
 
-  h1{
-    @apply text-4xl sm:text-5xl md:text-6xl
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
   }
 
-  h2{
-    @apply text-3xl sm:text-4xl
+  h2 {
+    @apply text-3xl sm:text-4xl;
   }
 
-  li{
-    @apply cursor-pointer
+  li {
+    @apply cursor-pointer;
   }
 
-  button{
-    @apply shadow shadow-gray-400 rounded-md bg-gradient-to-r from-[#FF9900] to-[#ff9900ad]
+  button {
+    @apply shadow shadow-gray-400 rounded-md bg-gradient-to-r from-[#FF9900] to-[#ff9900ad];
   }
 
   /* .para{
@@ -45,12 +137,10 @@ body {
 
   } */
 
-  
-
-  .mine{
-    width:250px;
+  .mine {
+    width: 250px;
     position: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     /* align-items: center; */
     /* border: 2px solid tomato; */
