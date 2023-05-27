@@ -10,7 +10,7 @@ import React from "react";
 const Main = () => {
   return (
     <div className="w-full h-[70vh] lg:h-screen hero">
-      <div className="back bg-auto h-full bg-no-repeat bg-center mx-auto flex items-center">
+      <div className="back bg-auto h-full bg-no-repeat py-11 bg-center mx-auto flex items-center">
         <div className="px-8 pt-[150px] justify-items-center">
           <h2 className="text-left text-4xl font-normal text-white ">
             Making Research and Analysing Data for <br />
