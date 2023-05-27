@@ -94,13 +94,13 @@ const Form = () => {
             <label className="">Message</label>
             <textarea
               rows="3"
-              className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:outline-none dark:bg-[#ff9900] px-3 text-sm py-3"
+              className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:outline-none dark:bg-gray-800 px-3 text-sm py-3"
             ></textarea>
           </div>
 
           <button
             type="button"
-            className="bg-[#ff9900] self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-violet-400 dark:text-white focus:outline-none"
+            className="bg-[#ff9900] self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-[#ff9900] dark:text-white focus:outline-none"
           >
             Submit
           </button>
