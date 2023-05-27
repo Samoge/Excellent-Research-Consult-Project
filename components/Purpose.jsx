@@ -34,9 +34,9 @@ const Purpose = () => {
             <div className="flex items-center justify-center mx-auto p-2">
 
             <div className="mr-2 h-[50px] w-[50px] rounded-full">
-                <img src="https://scontent.flos1-2.fna.fbcdn.net/v/t39.30808-6/271768322_4711185365664384_2657745006275074093_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHH70r2IUUv_dR0KS8QrsqrrIsVXNSdJkqsixVc1J0mSiGTK9rsorAG_Sox7IRfoZQ0kvTJL5EfBLgybjku9YtA&_nc_ohc=6QT8RfzyU4sAX-zXteO&_nc_zt=23&_nc_ht=scontent.flos1-2.fna&oh=00_AfBfPLvLvC5REOVd8KsqgOIvOziGtDvNYB9txtRF1io8ow&oe=646FEA20" alt="/" srcset="" className="w-full h-full rounded-full"/>
+                <img src="https://scontent.cdninstagram.com/v/t39.30808-6/337160230_945229669849518_8778980579918756537_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8ae9d6&_nc_eui2=AeFap1gh0FpYkWysZUhKGjMdgf9LeSIaayaB_0t5IhprJvYOsYGnWU-m8nH5m1eCs3V5Qfp_egiv81HE_EM7RkKR&_nc_ohc=ibKk86wE2IIAX-DLDQe&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&oh=00_AfBkg6_5ezJI0wpmRtDQe-3s-iE98C5jOMB9SqmenMAAWg&oe=6477E39B" alt="/" srcset="" className="block w-full h-full rounded-full"/>
             </div>
-            <p className="capitalize text-sm b-0">O O SamOge, ceo .........</p>
+            <p className="capitalize text-sm b-0">DANCHARLES OKOTO, CEO .........</p>
 
             </div>
           </div>

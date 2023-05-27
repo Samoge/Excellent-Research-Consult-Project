@@ -19,6 +19,8 @@ const NavBar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100] bg-[#000000e6]">
       <div className="flex justify-between items-center w-full h-full px-6 2xl:px-16">
+{/* <img src="https://drive.google.com/file/d/1YDNNEkIVODHfhE3yDclyfmXn9PTOHMPi/view?usp=sharing" alt="" srcset="" className="w-[200] h-[70]"/> */}
+
         <Image
           src="/../public/icons/erclogo.png"
           alt="/"
