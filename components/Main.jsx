@@ -23,9 +23,9 @@ const Main = () => {
           </p>
           <div>
 
-            <a href="https://wa.link/lrz2cv"></a>
+            <a href="https://wa.link/lrz2cv" target="blank"></a>
             <button
-              className="py-1 px-6 text-xs h-9 bg-[#ff9900] mt-8"
+              className="hover:cursor-pointer py-1 px-6 text-xs h-9 bg-[#ff9900] mt-8"
               type="submit"
             >
               Get Started
@@ -33,7 +33,7 @@ const Main = () => {
 
             <a href="#features">
               <button
-                className="py-1 px-4 text-xs h-9 border-2 border-[#ff9900] mt-8 ml-4"
+                className="hover:cursor-pointer py-1 px-4 text-xs h-9 border-2 border-[#ff9900] mt-8 ml-4"
                 type="submit"
               >
                 Show me more
