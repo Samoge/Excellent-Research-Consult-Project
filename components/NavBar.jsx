@@ -17,25 +17,17 @@ const NavBar = () => {
   };
 
   return (
-    <div className="fixed w-full py-3 shadow-xl z-[100] bg-[rgba(0,0,0,0.6)]">
-      <div className="flex justify-between items-center w-full h-full px-6 2xl:px-16">
-        {/* <img src="https://drive.google.com/file/d/1YDNNEkIVODHfhE3yDclyfmXn9PTOHMPi/view?usp=sharing" alt="" srcset="" className="w-[200] h-[70]"/> */}
+    <div className="fixed w-full py-3 shadow-xl z-[100] bg-[rgba(0,0,0,0.8)]">
+      <div className="flex justify-between items-center w-full h-full px-8 2xl:px-16">
 
-        <img
-          src="/public/icons/erclogo.png"
-          alt="image"
-          loading="lazy"
-          width=""
-          height=""
-          className="border-white border-2 w-[200px] h-[30px]"
+           <Image
+          src="/../public/erclogo.png"
+          alt="/"
+          width="140"
+          height="20"
         />
 
-        {/* <Image
-          src="/../public/icons/erclogo.png"
-          alt="/"
-          width="200"
-          height="70"
-        /> */}
+
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -183,12 +175,12 @@ const NavBar = () => {
           }
         >
           <div>
-            <div className="flex w-full items-center justify-between">
+            <div className="px-3 flex w-full items-center justify-between">
               <Image
-                src="/../public/icons/erclogo.png"
+                src="/../public/erclogo.png"
                 alt="/"
-                width="150"
-                height="50"
+                width="130"
+                height="40"
               />
               <div
                 onClick={handleNav}

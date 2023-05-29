@@ -11,6 +11,11 @@ body {
   /* background: red; */
 }
 
+.navlogo {
+  background: url("/public/assets/erclogo.png");
+
+}
+
 .back {
   background: rgba(0, 0, 0, 0.7);
 }
