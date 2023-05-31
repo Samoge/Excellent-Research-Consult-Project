@@ -19,14 +19,9 @@ const NavBar = () => {
   return (
     <div className="fixed w-full py-3 shadow-xl z-[100] bg-[rgba(0,0,0,0.8)]">
       <div className="flex justify-between items-center w-full h-full px-8 2xl:px-16">
-
-           <Image
-          src="/../public/erclogo.png"
-          alt="/"
-          width="140"
-          height="20"
-        />
-
+        <a href="/">
+          <Image src="/../public/erclog.png" alt="/" width="140" height="20" />
+        </a>
 
         <div>
           <ul className="hidden md:flex">
@@ -53,49 +48,56 @@ const NavBar = () => {
                     <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                   </svg>
                 </span>
-                </li>
-                <div
-                  id="dropdownNavbar"
-                  class="border rounded-sm transform scale-0 group-hover:scale-100 absolute 
+              </li>
+              <div
+                id="dropdownNavbar"
+                class="border rounded-sm transform scale-0 group-hover:scale-100 absolute 
                   transition duration-150 ease-in-out origin-top min-w-32
                  bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow mt-4 w-44"
-                >
-                  <ul class="py-1" aria-labelledby="dropdownLargeButton">
-                    <li>
-                      <a
-                        href="#"
-                        class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Dashboard
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Settings
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Earnings
-                      </a>
-                    </li>
-                  </ul>
-                  <div class="py-1">
+              >
+                <ul class="py-1" aria-labelledby="dropdownLargeButton">
+                  <li>
                     <a
                       href="#"
                       class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                     >
-                      Sign out
+                      Feasibility Studies
                     </a>
-                  </div>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                    >
+                      Market Survey
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                    >
+                      Product Research
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                    >
+                      Data Collection
+                    </a>
+                  </li>
+                </ul>
+                <div class="py-1">
+                  <a
+                    href="#"
+                    class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                  >
+                    Consultancy
+                  </a>
                 </div>
-              
+              </div>
             </Link>
 
             <Link href="/" class="group inline-block">
@@ -124,7 +126,7 @@ const NavBar = () => {
                       href="#"
                       class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                     >
-                      Dashboard
+                      Research/Data Analysis Training
                     </a>
                   </li>
                   <li>
@@ -132,7 +134,7 @@ const NavBar = () => {
                       href="#"
                       class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                     >
-                      Settings
+                      Article Writing
                     </a>
                   </li>
                   <li>
@@ -140,7 +142,15 @@ const NavBar = () => {
                       href="#"
                       class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                     >
-                      Earnings
+                      Proposal/Thesis
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                    >
+                      Data Collection/Entering
                     </a>
                   </li>
                 </ul>
@@ -149,7 +159,7 @@ const NavBar = () => {
                     href="#"
                     class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                   >
-                    Sign out
+                    Mentorship
                   </a>
                 </div>
               </div>
@@ -176,12 +186,14 @@ const NavBar = () => {
         >
           <div>
             <div className="px-3 flex w-full items-center justify-between">
-              <Image
-                src="/../public/erclogo.png"
-                alt="/"
-                width="130"
-                height="40"
-              />
+              <a href="/">
+                <Image
+                  src="/../public/erclog.png"
+                  alt="/"
+                  width="130"
+                  height="40"
+                />
+              </a>
               <div
                 onClick={handleNav}
                 className="text-black  rounded-full shadow-lg border-black-400 shadow-gray-500 p-3 bg-white cursor-pointer"
@@ -207,60 +219,67 @@ const NavBar = () => {
                 <li className="py-3 text-sm hover:text-[#ff9900]">About us</li>
               </Link>
               <Link href="/" class="group inline-block">
-                <li className="py-3 text-sm hover:text-[#ff9900] flex justify-center items-center">Students
-                
-                <span>
-                  <svg
-                    class="mx-2 fill-current h-4 w-4 transform group-hover:-rotate-180
+                <li className="py-3 text-sm hover:text-[#ff9900] flex justify-center items-center">
+                  Students
+                  <span>
+                    <svg
+                      class="mx-2 fill-current h-4 w-4 transform group-hover:-rotate-180
         transition duration-150 ease-in-out"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                  </svg>
-                </span>
-                
-                <div
-                  id="dropdownNavbar"
-                  class="border rounded-sm transform scale-0 group-hover:scale-100 absolute 
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                    </svg>
+                  </span>
+                  <div
+                    id="dropdownNavbar"
+                    class="border rounded-sm transform scale-0 group-hover:scale-100 absolute 
                   transition duration-150 ease-in-out origin-top min-w-32
                  bg-white text-base z-10 list-none divide-y divide-gray-100 left-[120px] shadow w-44"
-                >
-                  <ul class="py-1" aria-labelledby="dropdownLargeButton">
-                    <li>
+                  >
+                    <ul class="py-1" aria-labelledby="dropdownLargeButton">
+                      <li>
+                        <a
+                          href="#"
+                          class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Feasibility Studies
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Market Survey
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Product Research
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Data Collection
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="py-1">
                       <a
                         href="#"
                         class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                       >
-                        Dashboard
+                        Consultancy
                       </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Settings
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Earnings
-                      </a>
-                    </li>
-                  </ul>
-                  <div class="py-1">
-                    <a
-                      href="#"
-                      class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                    >
-                      Sign out
-                    </a>
+                    </div>
                   </div>
-                </div>
                 </li>
               </Link>
 
@@ -268,57 +287,64 @@ const NavBar = () => {
                 <li className="py-3 text-sm hover:text-[#ff9900] flex items-center">
                   Organisation
                   <span>
-                  <svg
-                    class="mx-2 fill-current h-4 w-4 transform group-hover:-rotate-180
+                    <svg
+                      class="mx-2 fill-current h-4 w-4 transform group-hover:-rotate-180
         transition duration-150 ease-in-out"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                  </svg>
-                </span>
-                
-                <div
-                  id="dropdownNavbar"
-                  class="border rounded-sm transform scale-0 group-hover:scale-100 absolute 
-                  transition duration-150 ease-in-out origin-top min-w-32
-                 bg-white text-base z-10 list-none divide-y divide-gray-100 left-[120px] shadow w-44"
-                >
-                  <ul class="py-1" aria-labelledby="dropdownLargeButton">
-                    <li>
-                      <a
-                        href="#"
-                        class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Dashboard
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Settings
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Earnings
-                      </a>
-                    </li>
-                  </ul>
-                  <div class="py-1">
-                    <a
-                      href="#"
-                      class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
                     >
-                      Sign out
-                    </a>
+                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                    </svg>
+                  </span>
+                  <div
+                    id="dropdownNavbar"
+                    class="border rounded-sm transform scale-0 group-hover:scale-100 absolute 
+                  transition duration-150 ease-in-out origin-top min-w-32
+                 bg-white text-base z-10 list-none divide-y divide-gray-100 left-[120px] shadow"
+                  >
+                    <ul class="py-1" aria-labelledby="dropdownLargeButton">
+                      <li>
+                        <a
+                          href="#"
+                          class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Research/Data Analysis Training
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Article Writing
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Proposal/Thesis
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Data Collection/Entering
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="py-1">
+                      <a
+                        href="#"
+                        class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                      >
+                        Mentorship
+                      </a>
+                    </div>
                   </div>
-                </div>
                 </li>
               </Link>
             </ul>

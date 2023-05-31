@@ -49,7 +49,7 @@ const Features = () => {
                 href="https://wa.link/lrz2cv"
                 class="flex items-center -mx-1 text-sm text-[rgba(255,153,0,0.7)] capitalize transition-colors duration-300 transform dark:text-[#ff9900] hover:underline hover:text-[#ff9900] dark:hover:text-[#ff9900]"
               >
-                <span class="mx-1">read more</span>
+                <span class="mx-1">Get Started</span>
                 <svg
                   class="w-4 h-4 mx-1 rtl:-scale-x-100"
                   fill="currentColor"
@@ -99,7 +99,7 @@ const Features = () => {
                 href="https://wa.link/lrz2cv"
                 class="flex items-center -mx-1 text-sm text-[rgba(255,153,0,0.7)] capitalize transition-colors duration-300 transform dark:text-[#ff9900] hover:underline hover:text-[#ff9900] dark:hover:text-[#ff9900]"
               >
-                <span class="mx-1">read more</span>
+                <span class="mx-1">Get Started</span>
                 <svg
                   class="w-4 h-4 mx-1 rtl:-scale-x-100"
                   fill="currentColor"
@@ -153,7 +153,7 @@ const Features = () => {
                 href="https://wa.link/lrz2cv"
                 class="flex items-center -mx-1 text-sm text-[rgba(255,153,0,0.7)] capitalize transition-colors duration-300 transform dark:text-[#ff9900] hover:underline hover:text-[#ff9900] dark:hover:text-[#ff9900]"
               >
-                <span class="mx-1">read more</span>
+                <span class="mx-1">Get Started</span>
                 <svg
                   class="w-4 h-4 mx-1 rtl:-scale-x-100"
                   fill="currentColor"
@@ -204,7 +204,7 @@ const Features = () => {
                 href="https://wa.link/lrz2cv"
                 class="flex items-center -mx-1 text-sm text-[rgba(255,153,0,0.7)] capitalize transition-colors duration-300 transform dark:text-[#ff9900] hover:underline hover:text-[#ff9900] dark:hover:text-[#ff9900]"
               >
-                <span class="mx-1">read more</span>
+                <span class="mx-1">Get Started</span>
                 <svg
                   class="w-4 h-4 mx-1 rtl:-scale-x-100"
                   fill="currentColor"
@@ -257,7 +257,7 @@ const Features = () => {
                 href="https://wa.link/lrz2cv"
                 class="flex items-center -mx-1 text-sm text-[rgba(255,153,0,0.7)] capitalize transition-colors duration-300 transform dark:text-[#ff9900] hover:underline hover:text-[#ff9900] dark:hover:text-[#ff9900]"
               >
-                <span class="mx-1">read more</span>
+                <span class="mx-1">Get Started</span>
                 <svg
                   class="w-4 h-4 mx-1 rtl:-scale-x-100"
                   fill="currentColor"
@@ -308,7 +308,7 @@ const Features = () => {
                 href="https://wa.link/lrz2cv"
                 class="flex items-center -mx-1 text-sm text-[rgba(255,153,0,0.7)] capitalize transition-colors duration-300 transform dark:text-[#ff9900] hover:underline hover:text-[#ff9900] dark:hover:text-[#ff9900]"
               >
-                <span class="mx-1">read more</span>
+                <span class="mx-1">Get Started</span>
                 <svg
                   class="w-4 h-4 mx-1 rtl:-scale-x-100"
                   fill="currentColor"

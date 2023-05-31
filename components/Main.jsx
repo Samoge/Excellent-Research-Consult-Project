@@ -23,15 +23,16 @@ const Main = () => {
           </p>
           <div>
 
-            <a href="https://wa.link/lrz2cv" target="blank"></a>
+            <a href="https://wa.link/lrz2cv" target="blank">
             <button
               className="hover:cursor-pointer py-1 px-6 text-xs h-9 bg-[#ff9900] mt-8"
               type="submit"
             >
               Get Started
             </button>
+            </a>
 
-            <a href="#features">
+            <a href="#About">
               <button
                 className="hover:cursor-pointer py-1 px-4 text-xs h-9 border-2 border-[#ff9900] mt-8 ml-4"
                 type="submit"

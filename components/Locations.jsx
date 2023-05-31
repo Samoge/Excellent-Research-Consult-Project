@@ -19,10 +19,11 @@ const Locations = () => {
           <p className="text-[#ff9900]">Birmingham, UK</p>
           <div className="flex items-center text-black mt-2">
             <FiPhoneCall />
-            <p className="ml-2 text-sm">+234 457 890 123</p>
+            <p className="ml-2 text-sm">+44 7878 710669</p>
           </div>
           <p className="text-black font-light text-sm text-center">
-            No 1, Ondo Road, Beside Optima Filling Station
+            21 Frankly beeches Road,
+            Birmingham, West Midlands, B31 5AB, United Kingdom
           </p>
         </div>
         <div className="mine flex items-center justify-center hover:scale-105 transform duration-300 transition cursor-pointer">
